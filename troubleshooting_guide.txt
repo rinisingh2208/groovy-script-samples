@@ -1,0 +1,7 @@
+while testing groovy script locally you might encounter error
+groovy: JAVA_HOME is not defined correctly, can not execute: /usr/lib/jvm/default-java/bin/java
+
+to resolve :
+https://stackoverflow.com/questions/44455220/java-home-is-not-defined-correctly-in-groovy
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+export PATH=$JAVA_HOME/bin:$PATH
